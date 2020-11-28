@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GifsXamarin.Views.HomePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Gif In Motion"
+    BackgroundImageSource="space.png"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+
+        <Frame
+            BackgroundColor="Transparent"
+            BorderColor="SpringGreen"
+            CornerRadius="10">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="35" />
+                    <RowDefinition Height="35" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label
+                    CharacterSpacing="2"
+                    FontAttributes="Bold"
+                    HorizontalOptions="Center"
+                    Text="Gif in Xamarin Forms!"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand" />
+                <Image
+                    Grid.Row="1"
+                    HeightRequest="600"
+                    HorizontalOptions="CenterAndExpand"
+                    IsAnimationPlaying="True"
+                    Source="https://media.giphy.com/media/l1uguGf2RVIsTXNDO/giphy.gif"
+                    WidthRequest="800" />
+                <Button
+                    x:Name="BtnCollectionView"
+                    Grid.Row="2"
+                    Text="Collection View"
+                    BackgroundColor="#00e5ff"
+                    CornerRadius="18"
+                    Clicked="BtnCollectionView_Clicked" />
+                <Button
+                    x:Name="BtnCarouselView"
+                    Grid.Row="3"
+                    Text="Carousel View"
+                    BackgroundColor="#18ffff"
+                    CornerRadius="18"
+                    Clicked="BtnCarouselView_Clicked" />
+            </Grid>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

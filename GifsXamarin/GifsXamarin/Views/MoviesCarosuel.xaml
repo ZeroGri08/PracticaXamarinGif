@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GifsXamarin.Views.MoviesCarosuel"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="clr-namespace:GifsXamarin.ViewModels"
+    Title="{Binding Title}"
+    BackgroundImageSource="space.png"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <CarouselView x:Name="movieViewSource">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center">
+                        <Label
+                            Text="{Binding Title}"
+                            FontAttributes="Bold"
+                            TextColor="White"
+                            FontSize="20" />
+                        <Image
+                            x:Name="GifXaml"
+                            Source="{Binding Link}"
+                            IsAnimationPlaying="True"
+                            WidthRequest="250"
+                            HeightRequest="200" />
+                        <StackLayout Orientation="Horizontal">
+                            <Label
+                                Text="Episode "
+                                FontAttributes="Bold"
+                                FontSize="20"
+                                TextColor="White" />
+                            <Label
+                                Text="{Binding Episode}"
+                                FontAttributes="Bold"
+                                FontSize="20"
+                                TextColor="White" />
+                        </StackLayout>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </ContentPage.Content>
+</ContentPage>

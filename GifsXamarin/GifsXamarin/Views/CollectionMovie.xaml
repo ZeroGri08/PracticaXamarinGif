@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="GifsXamarin.Views.CollectionMovie"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewmodel="clr-namespace:GifsXamarin.ViewModels"
+    Title="{Binding Title}"
+    BackgroundImageSource="space.png"
+    mc:Ignorable="d">
+    <ContentPage.Content>
+        <CollectionView x:Name="CollectionViewSource">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25" />
+                            <RowDefinition Height="250" />
+                            <RowDefinition Height="25" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Label
+                            Grid.Row="0"
+                            FontAttributes="Bold"
+                            FontSize="20"
+                            Text="{Binding Title}"
+                            TextColor="White" />
+                        <Image
+                            x:Name="GifXaml"
+                            Grid.Row="1"
+                            IsAnimationPlaying="True"
+                            Source="{Binding Link}" />
+                        <StackLayout Grid.Row="2" Orientation="Horizontal">
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="20"
+                                Text="Episode "
+                                TextColor="White" />
+                            <Label
+                                FontAttributes="Bold"
+                                FontSize="20"
+                                Text="{Binding Episode}"
+                                TextColor="White" />
+                        </StackLayout>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </ContentPage.Content>
+</ContentPage>

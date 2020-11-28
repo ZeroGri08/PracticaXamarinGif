@@ -1,0 +1,17 @@
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\bin\Debug\netstandard2.0\GifsXamarin.deps.json
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\bin\Debug\netstandard2.0\GifsXamarin.dll
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\bin\Debug\netstandard2.0\ref\GifsXamarin.dll
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\bin\Debug\netstandard2.0\GifsXamarin.pdb
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\GifsXamarin.csprojAssemblyReference.cache
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\Views\CollectionMovie.xaml.g.cs
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\Views\MoviesCarosuel.xaml.g.cs
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\GifsXamarin.AssemblyInfoInputs.cache
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\GifsXamarin.AssemblyInfo.cs
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\GifsXamarin.csproj.CoreCompileInputs.cache
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\GifsXamarin.dll
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\ref\GifsXamarin.dll
+C:\Users\anton\source\repos\GifsXamarin\GifsXamarin\GifsXamarin\obj\Debug\netstandard2.0\GifsXamarin.pdb
